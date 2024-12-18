@@ -220,10 +220,12 @@ a {
 
 .menu-toggle{
     display: none;
+    max-height: 0;
 }
 
 .close-sidebar{
     display: none;
+    max-height: 0;
 }
 
 @media(max-width:600px){
@@ -276,6 +278,7 @@ a {
         font-size: 1.5rem;
         cursor: pointer;
         z-index: 1001;
+        max-height: 20vh;
     }
 
     .sidebar {
@@ -320,6 +323,7 @@ a {
     .close-sidebar {
         cursor: pointer;
         align-self: flex-end;
+        max-height: 20vh;
     }
 
 
