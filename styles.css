@@ -196,12 +196,11 @@ a {
     color: var(--soft-red);
 }
 
-.text-content a:hover{
-    color: var(--soft-red);
-}
-.text-content a:visited{
+.text-content a:visited,:hover,:link{
     color: var(--dark-blue);
 }
+
+
 
 .text-content p{
     color:  hsl(236, 13%, 42%);
